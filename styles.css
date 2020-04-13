@@ -1,0 +1,156 @@
+/******** Tag Selectors ********/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+
+  width: 50%;
+  margin: 60px auto 30px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 5.5rem;
+  color: #235952;
+
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #235952;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+
+hr {
+  border-style: dotted none none none;
+  border-width: 8px;
+  width: 10%;
+  margin: 50px auto;
+  color: #EAF6F6;
+
+}
+
+
+
+
+/******** Class Selectors ********/
+
+.top-div {
+  background-color: #ecfbfc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+
+}
+
+.middle-div {
+
+}
+
+.bottom-div {
+  background-color: #66BFBF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+
+}
+
+.profile {
+  padding-bottom: 30px;
+}
+
+.skills {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 75px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 320px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto ;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.contact-me {
+  padding-bottom: 50px;
+}
+
+.danny-image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.computer-image {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px
+}
+
+.coffee-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.btn {
+
+	background-color:#66bfbf;
+	-webkit-border-top-left-radius:15px;
+	-moz-border-radius-topleft:15px;
+	border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topright:15px;
+	border-top-right-radius:15px;
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+	-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
+ text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+  font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	font-style:normal;
+ height:50px;
+	line-height:50px;
+ width:140px;
+	text-decoration:none;
+	text-align:center;
+}.btn:hover {
+	background-color:#1f9aa3;
+}.btn:active {
+	position:relative;
+	top:1px;
